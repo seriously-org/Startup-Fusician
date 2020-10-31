@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  min-height: 320px;
+  scroll-behavior: smooth;
+}
+#nav{
+  background-color: #f25f59 !important;
+}
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+  color: #FFFFFF !important;
+}
+.background {
+  width: 100%;
+}
+.carousel-inner img{
+  height: 100%;
+  width: 100%;
+}
+.carousel-caption {
+  position: relative;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-35%);
+  color: #00FFFF;
+}
+.carousel-caption h1{
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.carousel-caption h2{
+  font-size: 350%;
+  text-transform: uppercase;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.carousel-caption h3{
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding-bottom: 1rem;
+}
+.btn-primary {
+  background-color:	#f25f59;
+  border: 1px solid #f25f59;
+}
+.btn-lg{
+  margin-bottom: -875px;
+  top: 50%;
+  margin-left: -950px;
+}
+.btn-primary:hover {
+  background-color: #f25f59;
+  border: 1 px solid #f25f59;
+}
+.start{
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 10%;
+  top: 97%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #6648b1;
+  background-color: #6648b1;
+  color: #fff;
+  transition: 250ms ease;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.about {
+  padding-top: 1.5rem;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.floatRight {
+  float:right;
+  margin-left:20px
+}
+.img {
+  width: 100%;
+}
+.left {
+  position: absolute;
+  left: 16px;
+}
+.container1 {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.card > div {
+  padding: 2rem;
+}
+.card:nth-child(even) img {
+  order: 2;
+  background: #f1f1f1;
+}
+#feature {
+  margin-bottom: 2rem;
+}
+.fa-music {
+  color: #FF0000;
+}
+.fa-users {
+  color: #00FF00;
+}
+.fa-headphones {
+  color: #0000FF;
+}
+.fa-music, .fa-users, .fa-headphones {
+  font-size: 4em;
+  margin: 1rem;
+}
+.fun{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #f25f59;
+  background-color: #f25f59;
+  color: #fff;
+  transition: 250ms ease;
+}
+.fun:hover {
+  background-color: #DC143C;
+}
+.gif {
+  max-width: 100%;
+  height: 195px;
+}
+.container{
+  background-color: #DCDCDC;
+  padding-bottom: 4rem;
+}
+.mt-4,
+.experience {
+  text-align: center;
+}
+.radio-inline {
+  margin: 0px 10px 20px 10px;
+  cursor: pointer;
+}
+label{
+  color: #000;
+}
+#welcome{
+  /* padding-top: 2rem; */
+}
+#text{
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: none;
+  width: 100%;
+  color: #000;
+}
+#message{
+  outline: none;
+  border: none;
+  padding: 10px 0px 0px 15px;
+  font-size: 16px;
+  color: #000;
+  border-radius: 5px;
+  width: 100%;
+}
+#feed{
+  padding-top: 0.2rem;
+  width: 100%;
+}
+#about{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.social a{
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-envelope {
+  color: #FFFF00;
+}
+.fa-instagram {
+  color: #FF7F50;
+}
+.fa-google-plus-g:hover,
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+footer{
+    width: 100%;
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+#pilot{
+  padding-top: 2rem;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  }
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1{
+    font-size: 200%;
+  }
+  .carousel-caption h3{
+    font-size: 110%;
+    font-weight: 300;
+    /* text-shadow: 1px 1px 10px #000; */
+    padding-bottom: .2rem;
+  }
+  .start {
+    font-size: 85%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+  .pic{
+    height: 75%;
+    width: 75%;
+    position: center;
+  }
+  #feedback{
+    width: 100%;
+  }
+  .mt-5{
+    font-size: 150%;
+  }
+  .card {
+    display: block;
+  }
+}
+@media (max-width: 750px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1{
+    font-size: 200%;
+  }
+  .carousel-caption h3{
+    font-size: 110%;
+    font-weight: 300;
+    /* text-shadow: 1px 1px 10px #000; */
+    padding-bottom: .2rem;
+  }
+  .start {
+    font-size: 85%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+    #feedback{
+    width: 100%;
+  }
+  .mt-5{
+    font-size: 150%;
+  }
+  .card {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption h1{
+    font-size: 250%;
+  }
+  .carousel-caption h3{
+    font-size: 110%;
+  }
+  .start {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+  .lead {
+    font-size: 100%;
+  }
+  .card {
+    display: block;
+  }
+}
+
+@media (max-width: 440px) {
+  .carousel-caption {
+    top: 33%;
+  }
+  .carousel-caption h1{
+    font-size: 200%;
+  }
+  .carousel-caption h3{
+    font-size: 100%;
+  }
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+  .lead {
+    font-size: 100%;
+  }
+  .card {
+    display: block;
+  }
+}
+
+@media (max-width: 440px) {
+  .carousel-caption {
+    top: 33%;
+  }
+  .carousel-caption h1{
+    font-size: 150%;
+    margin: 0;
+  }
+  .carousel-caption h3{
+    font-size: 90%;
+    margin: 0;
+  }
+  .carousel-caption .btn {
+    font-size: 70%;
+    padding: 4px 8px;
+  }
+  .display-4 {
+    font-size: 100%;
+  }
+  .lead {
+    font-size: 100%;
+  }
+  .card {
+    display: block;
+  }
+}
